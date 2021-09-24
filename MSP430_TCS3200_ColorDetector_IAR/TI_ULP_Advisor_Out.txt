@@ -1,0 +1,44 @@
+TI ULP Advisor 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 7: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module  
+instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 14: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer  
+module instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 16: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer  
+module instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 18: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer  
+module instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 22: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer  
+module instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 51: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer  
+module instead 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 73: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int" 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 74: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int" 
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c", line 81: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time  
+or not using as these are processing/power intensive 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 61: remark #1532-D: (ULP 5.3) Detected sprintf() operation(s). Recommend moving them to RAM during run time or  
+not using as these are processing/power intensive 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 29: remark #1535-D: (ULP 8.1) variable "RGB_out" is used as a constant. Recommend declaring variable as  
+either 'static const' or 'const' 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 127: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is  
+easier 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 129: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or  
+not using as these are processing/power intensive 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 129: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 127: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is  
+easier 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 137: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is  
+easier 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 137: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is  
+easier 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 265: remark #2553-D: (ULP 14.1) Array index (involving "rgbc_index") of type "int". Recommend using "unsigned  
+int" 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 18: remark #1535-D: (ULP 8.1) variable "lcd_out_row1" is used as a constant. Recommend declaring variable as  
+either 'static const' or 'const' 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 19: remark #1535-D: (ULP 8.1) variable "lcd_out_row2" is used as a constant. Recommend declaring variable as  
+either 'static const' or 'const' 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 20: remark #1535-D: (ULP 8.1) variable "TCS3200_out" is used as a constant. Recommend declaring variable as  
+either 'static const' or 'const' 
+"C:\MSP430_TCS3200_ColorDetector\main.c", line 129 (col. 43): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM  
+during run time or not using as these are processing/power intensive 
+remark #27006-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused  
+pins. 

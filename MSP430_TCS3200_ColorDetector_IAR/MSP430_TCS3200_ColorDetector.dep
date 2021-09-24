@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>4097940705</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcdLib.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcdLib.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\List\MSP430_TCS3200_ColorDetector.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\MSP430_TCS3200_ColorDetector.pbd</file>
+            <file>$PROJ_DIR$\lcdLib.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$PROJ_DIR$\lcdLib.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP430_TCS3200_ColorDetector.d43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP430_TCS3200_ColorDetector.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\io430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcdLib.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\io430.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 26 23 17 29 6 18 8 5 14 13 9 20 11 7 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20 6 26 13 1 28 5 17 11 23 14 29 18 8 9 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lcdLib.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 28 26 23 17 29 6 18 8 5 14 13 9 20 11 7 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6 11 14 23 18 17 26 28 20 13 5 7 29 1 8 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\MSP430_TCS3200_ColorDetector.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 10 3 4 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 22 15</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

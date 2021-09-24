@@ -1,0 +1,1 @@
+"C:\MSP430_TCS3200_ColorDetector\lcdLib.c" "C:\MSP430_TCS3200_ColorDetector\main.c"
